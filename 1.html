@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>疫情地图</title>
+    <link rel="stylesheet" href="css\main.css">
+    <script src="js/echarts.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/world.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header"></div>
+        <div id="a1"></div>
+        <div class="nav">
+        <a href="#a1">国内疫情</a>
+        <a href="#a2">国外疫情</a>
+        <a href="#a3">实时播报</a>
+        </div>
+        <section>
+        <div>
+            <div>
+                <div class="title">国内疫情</div>
+                <div class="head">
+                    <p>新增确诊</p>
+                    <p>新增本土</p>
+                    <p>新增境外</p>
+                    <p>新增无症状</p>
+                </div>
+                <div class="head">
+                    <p id="gn1"></p>
+                    <p id="gn2"></p>
+                    <p id="gn3"></p>
+                    <p id="gn4"></p>
+                </div>
+            </div>
+            <div>
+                <div class="head">
+                    <p>现有确诊</p>
+                    <p>现有本土</p>
+                    <p>现有境外</p>
+                    <p>现有无症状</p>
+                </div>
+                <div class="head">
+                    <p id="gn5"></p>
+                    <p id="gn6"></p>
+                    <p id="gn7"></p>
+                    <p id="gn8"></p>
+                </div>
+            </div>
+            <div class="border"></div>
+            <div>
+                <div class="head">
+                    <p>累计确诊</p>
+                    <p>累计本土</p>
+                    <p>累计治愈</p>
+                    <p>累计死亡</p>
+                </div>
+                <div class="head">
+                    <p id="gn9"></p>
+                    <p id="gn10"></p>
+                    <p id="gn11"></p>
+                    <p id="gn12"></p>
+                </div>
+            </div>
+        </div>
+        <div id="xxk1">
+        <div id="xy1">现有病例</div>
+        <div id="xz1">新增病例</div>
+        </div>
+        <div id="main"></div>
+
+        <div>
+        <div>
+            <div class="title">国外疫情</div>
+            <div class="head">
+                <p>新增确诊</p>
+                <p>新增死亡</p>
+                <p>现有确诊</p>
+            </div>
+            <div class="head">
+                <p id="gw1"></p>
+                <p id="gw2"></p>
+                <p id="gw3"></p>
+            </div>
+        </div>
+        
+        <div>
+            <div class="head">
+                <p>累计确诊</p>
+                <p>累计死亡</p>
+                <p>累计治愈</p>
+            </div>
+            <div class="head">
+                <p id="gw4"></p>
+                <p id="gw5"></p>
+                <p id="gw6"></p>
+            </div>
+        </div>
+        </div>
+        <div id="xxk2">
+            <div id="xy2">现有病例</div>
+            <div id="xz2">新增病例</div>
+        </div>
+        <div id="a2"></div>
+        <div id="a3">
+            <div class="title">实时播报</div>
+            <div>
+                <div class="time">04月02日  10:10</div>
+                <div class="text">安徽芜湖繁昌一确诊病例康复出院后被警方采取刑事强制措施</div>
+            </div>
+            <div>
+                <div class="time">04月02日  10:09</div>
+                <div class="text">浙江4月1日新增本土确诊病例14例、本土无症状感染者14例</div>
+            </div>
+            <div>
+                <div class="time">04月02日  10:09</div>
+                <div class="text">吉林长春昨日新增本土确诊病例1544例、无症状感染者894例</div>
+            </div>
+            <div>
+                <div class="time">04月02日  10:09</div>
+                <div class="text">上海浦西地区第一次核酸检测采样超过1400万人</div>
+            </div>
+            <div>
+                <div class="time">04月02日  10:04</div>
+                <div class="text">天津新增1例本土确诊病例为无症状感染者转确诊</div>
+            </div>
+            <div>
+                <div class="time">04月02日  10:02</div>
+                <div class="text">青海61名密接者、次密接者核酸检测均为阴性</div>
+            </div>
+            <div>
+                <div class="time">04月02日  09:56</div>
+                <div class="text">关于贵州双龙航空港经济区开展第一次区域核酸检测的通告</div>
+            </div>
+            <div>
+                <div class="time">04月02日  09:56</div>
+                <div class="text">4月2日吉林市疫情最新消息通报：新增本土“178+349”</div>
+            </div>
+            <div>
+                <div class="time">04月02日  09:55</div>
+                <div class="text">安徽芜湖首例确诊病例胡某树被采取刑事强制措施</div>
+            </div>
+            <div>
+                <div class="time">04月02日  09:49</div>
+                <div class="text">海南三地发布疫情防控通告</div>
+            </div>
+   
+        </div>
+        </section>
+    </div>
+</body>
+    <script src="js/1.js"></script>
+    <script src="js/2.js"></script>
+</html>

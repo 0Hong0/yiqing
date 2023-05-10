@@ -1,0 +1,156 @@
+.border{
+    border-bottom:5px solid #c2cdcd;
+}
+body{
+    background-color :#10aeb5;
+}
+
+.container{
+    margin:auto;
+    padding:10px;
+}
+
+.header{
+    width:auto;
+    height:80px;
+    background: color #10aeb5;
+    margin:auto;
+}
+
+section{
+    width:50%;
+    background-color:#fff;
+    position:relative;
+    margin:auto;
+}
+
+.nav{
+    width:50%;
+    padding-top:15px;
+    height:30px;
+    background-color:#fff;
+    border-radius:10px 10px 0px 0px;
+    border-bottom:1px solid #eee;
+    display:flex;
+    justify-content:space-around;
+    margin:auto
+}
+
+.head{
+    width:auto;
+    height:50px;
+    display:flex;
+    justify-content:space-around;
+    margin:0 auto;
+}
+
+
+.data{
+    width:auto;
+    height:200px;
+}
+
+.nav-fixed{
+    width:98%;
+    height:30px;
+    background-color: rgb(255, 255, 255);
+    border-radius:10px;
+    display:flex;
+    justify-content:space-around;
+    position:fixed;
+
+    z-index: 1;
+    padding-top:10px;
+    margin-top:-100px;
+}
+#main{
+    width:auto;
+    height:800px;
+    margin:0 auto;
+}
+#a2{
+    width:auto;
+    height:700px;
+}
+
+#a3{
+    width:auto;
+    height:1000px;
+}
+
+#xxk1{
+    width:100%;
+    height:30px;
+    display:flex;
+    background-color:aliceblue;
+    justify-content:space-around;
+    margin:auto;
+}
+
+#xy1{
+    display:inline-block;
+    width:50%;
+    border-right:5px solid #c2cdcd;
+    text-align: center;
+    padding-top:5px;
+}
+
+#xz1{
+    display:inline-block;
+    width:50%;
+    text-align: center;
+    padding-top:5px;
+}
+#xxk2{
+    width:100%;
+    height:30px;
+    display:flex;
+    background-color:aliceblue;
+    justify-content:space-around;
+    margin:20px auto;
+}
+
+#xy2{
+    display:inline-block;
+    width:50%;
+    border-right:5px solid #c2cdcd;
+    text-align: center;
+    padding-top:5px;
+}
+
+#xz2{
+    display:inline-block;
+    width:50%;
+    text-align: center;
+    padding-top:5px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+.title{
+    color:black;
+    font-weight:bolder;
+    font-size:x-large;
+    margin-left:30px;
+    margin-bottom: 5px;
+    padding-top: 20px;
+}
+
+.time{
+    color:darkgray;
+    font-size:medium;
+    margin-left:50px;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text{
+    font-size: large;
+    margin-left:50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color:aliceblue;
+}
